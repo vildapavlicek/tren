@@ -1,0 +1,20 @@
+[package]
+name = "tren"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_decimal = "1.26.1"
+rust_decimal_macros = "1.26.1"
+#serde = { version = "1.0.143", features = ["derive"] }
+csv = { version =  "1.1.6", features = [] }
+eyre = "0.6.8"
+crossbeam = "0.8.2"
+crossbeam-channel = "0.5.6"
+tracing = "0.1.36"
+tracing-subscriber = { version = "0.3.15", features = ["env-filter"]}
+tracing-appender = "0.2.2"
+ron = "0.7.1"
+serde = { version = "1.0.143", features = ["derive"] }

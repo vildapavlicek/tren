@@ -1,0 +1,7 @@
+type,client,tx,amount
+withdrawal,1,1,10
+dispute,1,1,
+resolve,1,1,
+withdrawal,2,1,10
+dispute,2,1,
+chargeback,2,1,

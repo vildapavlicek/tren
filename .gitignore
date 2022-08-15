@@ -1,0 +1,5 @@
+/target
+.idea
+
+*.log.*
+/test_data/tren_test_max_10_000_000.csv
