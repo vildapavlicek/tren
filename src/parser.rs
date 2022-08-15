@@ -222,6 +222,11 @@ mod tests {
                 csv::ByteRecord::from(vec!["deposit", "1", "4", "10 . 0"]),
                 (1, 4, dec!(10.0)),
             ),
+            (
+                "type with multiple spaces",
+                csv::ByteRecord::from(vec!["d e p osit", "1", "4", "10.0"]),
+                (1, 4, dec!(10.0)),
+            ),
         ];
 
         for (i, (name, test_data, want)) in tests.into_iter().enumerate() {

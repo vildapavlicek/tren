@@ -16,7 +16,7 @@ mod parser;
 // mod transaction;
 
 fn main() {
-    let _guard = logger::init();
+    //let _guard = logger::init();
 
     info!(
         app_name = env!("CARGO_PKG_NAME"),
